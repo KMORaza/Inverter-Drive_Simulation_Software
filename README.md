@@ -29,7 +29,7 @@
   * Produces phase voltages via [`InverterPowerStage.java`](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/main/java/inverter_drive/simulation/software/InverterPowerStage.java).
   * Applies faults using [`FaultSimulator.java`](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/main/java/inverter_drive/simulation/software/FaultSimulator.java).
   * Measures currents with [`SensorMode.javal`](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/main/java/inverter_drive/simulation/software/SensorModel.java).
-  * Updates motor state [`InductionMotor.java`](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/main/java/inverter_drive/simulation/software/InductionMotor.java).\
+  * Updates motor state [`InductionMotor.java`](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/main/java/inverter_drive/simulation/software/InductionMotor.java).
   * Logs data via [`DataLogger.java`](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/main/java/inverter_drive/simulation/software/DataLogger.java) and visualizes waveforms [`WaveformVisualizer.java`](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/main/java/inverter_drive/simulation/software/WaveformVisualizer.java).
 * Model of motor :—
   * Models an induction motor using a simplified d-q axis framework (Clarke-Park transform).
