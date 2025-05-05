@@ -17,6 +17,7 @@
 * Plots phase A voltage, current, and motor speed on a canvas using quadratic curves for smooth rendering.
 * Simulates current measurements based on motor impedance.
 * Covers electrical (inverter, PWM), mechanical (motor dynamics), and thermal aspects.
+
 ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%201/src/screenshot.png?raw=true)
 
 ---
@@ -49,6 +50,7 @@
   * Currents are calculated based on motor impedance, adjusted for noise and failure scaling.
 * Models a wide range of components (motor, inverter, sensors, faults) with realistic dynamics, including thermal effects and noise.
 * Supports multiple control strategies (V/f, FOC) and load types, making it versatile for educational and engineering purposes.
+
 ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/screenshot.png?raw=true)
 
 ---
