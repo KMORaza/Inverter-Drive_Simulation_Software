@@ -45,7 +45,7 @@
   * Buffers simulation data and periodically writes to a CSV file (simulation_data.csv), with error handling for file I/O.
 * Visualization :—
   * Plots phase A voltage, current, and motor speed on a canvas, using a sliding window of 1000 point salongside smooth rendering.
-* Senosr modeling :—
+* Sensor modeling :—
   * Simulates current sensors with Gaussian noise and partial/complete failure modes.
   * Currents are calculated based on motor impedance, adjusted for noise and failure scaling.
 * Models a wide range of components (motor, inverter, sensors, faults) with realistic dynamics, including thermal effects and noise.
