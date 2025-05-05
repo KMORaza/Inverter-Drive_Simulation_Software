@@ -1,4 +1,4 @@
-### Software for simulating an electric inverter drive and written in JavaFX (Software for simulation of electrical inverter drive and written in JavaFX)
+### Software zur Simulation eines elektrischen Wechselrichterantriebs und geschrieben in JavaFX (Software for simulation of electrical inverter drive and written in JavaFX)
 
 #### First version
 * The software simulates an inverter-driven induction motor system, allowing users to configure motor parameters, control strategies, PWM settings, and thermal management.
