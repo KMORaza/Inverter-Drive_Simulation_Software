@@ -56,7 +56,7 @@
 ---
 
 Diese Software simuliert einen elektrischen Wechselrichterantrieb und ist in JavaFX geschrieben.
-Vor einigen Tagen (21. April 2025) ich habe eine ähnliche Desktop-App zur Simulation eines elektrischen Wechselrichterantriebs geschrieben, allerdings in der Programmiersprache C und mit einem anderen Ansatz.
+Vor einigen Tagen (21. April 2025) ich habe eine ähnliche Desktop-App zur Simulation eines elektrischen Wechselrichterantriebs geschrieben, allerdings in der C-Programmiersprache und mit einem anderen Ansatz.
 
 This software simulates electrical inverter drive and is written in JavaFX. 
-Few days back (21 April 2025), I wrote a similar desktop app for simulating electrical inverter drive but I wrote that one in C programming language and with a different approach.
+Few days back (21 April 2025), I wrote a similar desktop app for simulating electrical inverter drive but I wrote that one in C programming language and with a different implementation.
