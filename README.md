@@ -1,6 +1,6 @@
-### Software zur Simulation eines elektrischen Wechselrichterantriebs und geschrieben in JavaFX (Software for simulation of electrical inverter drive and written in JavaFX)
+## Software zur Simulation eines elektrischen Wechselrichterantriebs und geschrieben in JavaFX (Software for simulation of electrical inverter drive and written in JavaFX)
 
-#### First version
+### First version
 * The software simulates an inverter-driven induction motor system, allowing users to configure motor parameters, control strategies, PWM settings, and thermal management.
 * It includes fault simulation, real-time data logging, and waveform visualization.
 * Generates three-phase voltages based on PWM signals, DC-link voltage, and modulation settings.
@@ -22,7 +22,7 @@
 
 ---
 
-#### Second Version
+### Second Version
 * Key steps :—
   * Updates inverter and controller parameters from UI inputs.
   * Generates PWM signals using the [`VfController.java`](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/main/java/inverter_drive/simulation/software/VfController.java).
