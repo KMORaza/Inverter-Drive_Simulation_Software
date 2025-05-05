@@ -12,7 +12,7 @@
 * Accounts for temperature-dependent resistance changes.
 * Implements V/f control with PI speed regulation.
 * Supports acceleration/deceleration limits.
-* Logs time, phase voltages (Va, Vb, Vc), currents (Ia, Ib, Ic), speed, and torque to a CSV file.
+* Logs time, phase voltages ($V_a$, $V_b$, $V_c$), currents ($I_a$, $I_b$, $I_c$), speed, and torque to a CSV file.
 * Uses StringBuilder for efficient string concatenation.
 * Plots phase A voltage, current, and motor speed on a canvas using quadratic curves for smooth rendering.
 * Simulates current measurements based on motor impedance.
