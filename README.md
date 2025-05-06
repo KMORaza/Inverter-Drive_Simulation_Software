@@ -67,12 +67,16 @@
   * Simulates current measurements with Gaussian noise and partial failure scaling.
   * Allows enabling/disabling sensor faults.
 * Control planning :—
-  * Maintains a constant voltage-to-frequency ratio for open-loop speed control.
-  * Uses PI control to adjust frequency based on speed error, with acceleration limits.
-  * Controls torque and flux independently using d-q axis voltages.
-  * Employs PI controllers for speed, torque, and flux regulation.
-  * Uses inverse Park-Clarke transforms for three-phase voltage generation.
-  * Estimates stator flux angle based on currents and rotor flux.
+  * V/f Control
+    * Maintains a constant voltage-to-frequency ratio for open-loop speed control.
+    * Uses PI control to adjust frequency based on speed error, with acceleration limits.
+  * Field-Oriented Control (FOC)
+    * Controls torque and flux independently using d-q axis voltages.
+    * Employs PI controllers for speed, torque, and flux regulation.
+    * Uses inverse Park-Clarke transforms for three-phase voltage generation.
+  * Direct Torque Control (DTC)
+    * Directly controls torque and flux using a switching table and hysteresis bands.
+    * Estimates stator flux angle based on currents and rotor flux.
 * Fault simulation :—
   * Simulates faults like overcurrent, undervoltage, phase loss, overheating, and IGBT failure.
   * Applies fault effects to phase voltages (e.g., scaling, zeroing phases).
