@@ -22,7 +22,7 @@
 
 ---
 
-### Second Version
+### Second version
 * Key steps :—
   * Updates inverter and controller parameters from UI inputs.
   * Generates PWM signals using the [`VfController.java`](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/main/java/inverter_drive/simulation/software/VfController.java).
@@ -52,6 +52,38 @@
 * Supports multiple control strategies (V/f, FOC) and load types, making it versatile for educational and engineering purposes.
 
 ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/screenshot.png?raw=true)
+
+---
+
+### Third version
+* System modeling :—
+  * Models electrical dynamics (d-q axis currents, rotor flux, torque) using simplified motor equations.
+  * Includes mechanical dynamics (inertia, damping, friction, coupling stiffness).
+  * Simulates thermal behavior using heat generation (I²R losses), convection, and radiation, with configurable cooling (fan speed, coolant flow).
+  * Supports different load types (constant, fan/pump, inertia).
+  * Comprehensive modeling of electrical, mechanical, and thermal aspects; realistic temperature-dependent resistance.
+  * Generates three-phase voltages using pulse width modulation (PWM) techniques (SPWM & SVPWM).
+  * Supports harmonic injection, overmodulation, and dead-time compensation.
+  * Simulates current measurements with Gaussian noise and partial failure scaling.
+  * Allows enabling/disabling sensor faults.
+* Control planning :—
+  * Maintains a constant voltage-to-frequency ratio for open-loop speed control.
+  * Uses PI control to adjust frequency based on speed error, with acceleration limits.
+  * Controls torque and flux independently using d-q axis voltages.
+  * Employs PI controllers for speed, torque, and flux regulation.
+  * Uses inverse Park-Clarke transforms for three-phase voltage generation.
+  * Estimates stator flux angle based on currents and rotor flux.
+* Fault simulation :—
+  * Simulates faults like overcurrent, undervoltage, phase loss, overheating, and IGBT failure.
+  * Applies fault effects to phase voltages (e.g., scaling, zeroing phases).
+  * Supports protection modes (warning, shutdown) and auto-reset after a timeout.
+  * Comprehensive fault coverage; realistic fault injection (e.g., intermittent IGBT failure).
+
+| ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%203/001.png) | ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%203/002.png) |
+|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%203/003.png) | ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%203/004.png) |
+| ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%203/005.png) | ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%203/006.png) |
+| ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%203/007.png) | ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%203/008.png) |
 
 ---
 
