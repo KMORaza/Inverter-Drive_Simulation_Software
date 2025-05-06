@@ -18,7 +18,8 @@
 * Simulates current measurements based on motor impedance.
 * Covers electrical (inverter, PWM), mechanical (motor dynamics), and thermal aspects.
 
-![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%201/src/screenshot.png?raw=true)
+| ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%201/src/screenshot.png?raw=true) |
+|----------------------------------------------------------------------------------------------------------------------|
 
 ---
 
@@ -51,11 +52,18 @@
 * Models a wide range of components (motor, inverter, sensors, faults) with realistic dynamics, including thermal effects and noise.
 * Supports multiple control strategies (V/f, FOC) and load types, making it versatile for educational and engineering purposes.
 
-![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/screenshot.png?raw=true)
+| ![](https://github.com/KMORaza/Inverter-Drive_Simulation_Software/blob/main/Version%202/src/screenshot.png?raw=true) |
+|----------------------------------------------------------------------------------------------------------------------|
 
 ---
 
 ### Third version
+* Covers electrical, mechanical, thermal, and fault aspects of an inverter drive system.
+* Includes thermal dynamics, PWM effects, and fault simulation
+* Plots three-phase voltages, currents, and motor speed on a canvas.
+* Logs simulation data (time, voltages, currents, speed, torque, control mode, fault) to a CSV file.
+* Uses a buffer to reduce disk I/O, flushing when full.
+* Displays error alerts for I/O failures.
 * System modeling :—
   * Models electrical dynamics (d-q axis currents, rotor flux, torque) using simplified motor equations.
   * Includes mechanical dynamics (inertia, damping, friction, coupling stiffness).
